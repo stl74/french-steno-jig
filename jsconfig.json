@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "checkJs": true,
+        "types": ["jquery"],
+        "lib": ["ES2016", "DOM", "ES2021"]
+    },
+
+    "exclude": [
+        "/data/short-sentences-data.js",
+        "/data/tatoeba-sentences.js",
+        "/data/plover-translations.js",
+        "/data/gutenberg-data.js",
+        "/data/monkeytype-data.js",
+        "./data/**/*.js",
+        "./data/**/*.mjs",
+        "**/data/*.mjs",
+        "**/data/*.js",
+        "**/libs/*.js"
+    ]
+    // "files": ["**/*/.html"]
+}
