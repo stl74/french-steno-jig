@@ -2,7 +2,7 @@
 /* eslint-disable guard-for-in */
 // @ts-ignore
 
-let PloverPunctuation = import("../../data/plover-translations.mjs").then((m) => m.PloverPunctuation);
+let PloverPunctuation = import("../../data/pluvier-translations.mjs").then((m) => m.PloverPunctuation);
 
 import { analyze } from "../spectra/spectra.mjs";
 /**

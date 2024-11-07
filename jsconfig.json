@@ -10,7 +10,7 @@
     "exclude": [
         "/data/short-sentences-data.js",
         "/data/tatoeba-sentences.js",
-        "/data/plover-translations.js",
+        "/data/pluvier-translations.js",
         "/data/gutenberg-data.js",
         "/data/monkeytype-data.js",
         "./data/**/*.js",
