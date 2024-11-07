@@ -8,7 +8,7 @@
 
 import { StenoDisplay } from "./utils/steno-display.mjs";
 //@ts-ignore
-let PloverTranslations = import("./../data/pluvier-translations.mjs").then((m) => m.PloverTranslations);
+let PluvierTranslations = import("./../data/pluvier-translations.mjs").then((m) => m.PluvierTranslations);
 import { N, initializeButtons, newRNG, shuffle } from "./utils/util.mjs";
 /**
  * @typedef {{
