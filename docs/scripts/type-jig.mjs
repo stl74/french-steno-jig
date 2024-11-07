@@ -8,7 +8,7 @@
 
 import { StenoDisplay } from "./utils/steno-display.mjs";
 //@ts-ignore
-let PloverTranslations = import("./../data/plover-translations.mjs").then((m) => m.PloverTranslations);
+let PloverTranslations = import("./../data/pluvier-translations.mjs").then((m) => m.PloverTranslations);
 import { N, initializeButtons, newRNG, shuffle } from "./utils/util.mjs";
 /**
  * @typedef {{
@@ -1986,8 +1986,8 @@ function initializeHints(hints, floatingHints) {
         strokes.style.position = "fixed";
     }
     // @ts-ignore
-    const translations = TypeJig.shortestTranslations(PloverTranslations);
-    console.log("Making stenoDisplay", PloverTranslations, translations);
+    const translations = TypeJig.shortestTranslations(PluvierTranslations);
+    console.log("Making stenoDisplay", PluvierTranslations, translations);
 
     return new StenoDisplay(strokes, translations, true);
 }

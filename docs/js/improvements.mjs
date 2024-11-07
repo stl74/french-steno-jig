@@ -4,7 +4,7 @@ setTheme();
             // if (floating_hints) {
             //     strokes.style.position = "fixed";
             // }
-            var translations = TypeJig.shortestTranslations(PloverTranslations);
+            var translations = TypeJig.shortestTranslations(PluvierTranslations);
             console.log("Making stenoDisplay");
 
             var display = new StenoDisplay(element, translations, true);
